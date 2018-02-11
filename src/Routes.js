@@ -1,7 +1,7 @@
 import React from 'react';
 import { BrowserRouter, Route } from 'react-router-dom';
-import App from './App';
-import Home from './Home';
+import App from '/features/App';
+import Home from '/features/Home';
 
 export default () => (
 	<BrowserRouter>
