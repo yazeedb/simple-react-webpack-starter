@@ -39,6 +39,8 @@
     },
 	"globals": {
 		"__dirname": true,
-		"process": true
+		"process": true,
+		"describe": true,
+		"it": true
 	}
 }
