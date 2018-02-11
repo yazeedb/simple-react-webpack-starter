@@ -12,7 +12,8 @@
   "jest": {
     "moduleDirectories": [
       "node_modules",
-      "src"
+      "src",
+      "test"
     ],
     "moduleNameMapper": {
       "^/(.*)": "$1"

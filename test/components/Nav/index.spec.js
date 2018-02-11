@@ -1,5 +1,5 @@
 import Nav from '/components/Nav';
-import { mountWrapper } from '../../wrapper';
+import { mountWrapper } from '/wrapper';
 
 const getWrapper = mountWrapper(Nav);
 
