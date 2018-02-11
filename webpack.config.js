@@ -12,14 +12,7 @@ module.exports = {
 	resolve: {
 		extensions: ['.js'],
 		alias: {
-			src: root('src'),
-			actions: root('src/actions'),
-			reducers: root('src/reducers'),
-			components: root('src/components'),
-			shared: root('src/components/shared'),
-			polyfills: root('src/polyfills'),
-			helpers: root('src/helpers'),
-			assets: root('assets')
+			'': root('src'),
 		}
 	},
 	module: {
