@@ -20,7 +20,7 @@
         "no-console": 0,
         "indent": [
             "error",
-            "tab"
+            "space"
         ],
         "linebreak-style": [
             "error",
