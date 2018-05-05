@@ -4,9 +4,9 @@ import App from '/features/App';
 import Home from '/features/Home';
 
 export default () => (
-	<BrowserRouter>
-		<App>
-			<Route exact path="/" component={ Home } />
-		</App>
-	</BrowserRouter>
+  <BrowserRouter>
+    <App>
+      <Route exact path="/" component={Home} />
+    </App>
+  </BrowserRouter>
 );
