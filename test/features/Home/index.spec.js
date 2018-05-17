@@ -1,4 +1,4 @@
-import Home from 'features/Home';
+import Home from '/features/Home';
 
 describe('Home', () => {
   it('should exist', () => {

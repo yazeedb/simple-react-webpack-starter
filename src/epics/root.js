@@ -5,5 +5,5 @@ import { sendSignupInfoEpic } from '/features/Signup/Signup.epics';
 const rootEpic = combineEpics(sendSignupInfoEpic);
 
 export default createEpicMiddleware(rootEpic, {
-  dependencies: { fetch$: ajax },
+  dependencies: { fetch$: ajax }
 });
